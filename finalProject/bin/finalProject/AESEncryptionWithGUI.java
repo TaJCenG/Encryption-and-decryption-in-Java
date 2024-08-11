@@ -50,7 +50,7 @@ public class AESEncryptionWithGUI {
     private void initListeners() {
         encryptButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-            	 System.out.println("actionPerformed :::::::::::::::::::::::::::::::::::::::: " );
+            	 
             	 String secretKey = JOptionPane.showInputDialog("Enter the secret key (16, 24, or 32 characters):");
                 String originalText = inputText.getText();
 
